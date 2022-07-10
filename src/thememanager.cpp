@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 Piscesys Team.
  *
- * Author:     cutefish <cutefishos@foxmail.com>
+ * Author:     pisces <piscesys@foxmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,9 +26,9 @@
 #include <QDBusInterface>
 #include <QDebug>
 
-static const QString Service = "com.cutefish.Settings";
+static const QString Service = "com.pisces.Settings";
 static const QString ObjectPath = "/Theme";
-static const QString Interface = "com.cutefish.Theme";
+static const QString Interface = "com.pisces.Theme";
 
 ThemeManager::ThemeManager(QObject *parent) 
     : QObject(parent)

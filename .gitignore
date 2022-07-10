@@ -55,3 +55,12 @@ build/*
 
 .idea
 .vscode/*
+
+debian/.debhelper
+debian/files
+debian/fishui
+debian/*.changes
+debian/*.buildinfo
+debian/*.substvars
+debian/*.log
+obj-x86_64-linux-gnu/
